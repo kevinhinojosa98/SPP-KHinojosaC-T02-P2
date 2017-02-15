@@ -3,6 +3,8 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
+//Kevin Gerardo Hinojosa Castellanos   A01411383   IMT
+
 package spp.khinojosac.t02.p2;
 import java.util.Scanner;
 /**
@@ -19,15 +21,15 @@ public class SPPKHinojosaCT02P2 {
       
         System.out.println("Introduce a number");
       String valsub=teclado.nextLine();
-      int valueinf= Integer.parseInt(valsub);
+      int valinf= Integer.parseInt(valsub);
       
-      for (int i=1; i<= valueinf; i++){
-          if(valueinf % i == 0){
+      for (int i=1; i<= valinf; i++){
+          if(valinf % i == 0){
               System.out.println("i");
           }
          
           
-          if(valueinf % 3 == 0){
+          if(valinf % 3 == 0){
               System.out.println("The number is divisible by three");
           }
           
@@ -35,7 +37,7 @@ public class SPPKHinojosaCT02P2 {
               System.out.println("The number is not divisible by three");
           }
           
-          if(valueinf % 5 == 0){
+          if(valinf % 5 == 0){
               System.out.println("The number is divisible by five");
           }
           
@@ -43,7 +45,7 @@ public class SPPKHinojosaCT02P2 {
               System.out.println("The number is not divisible by five");
           }
           
-          if(valueinf % 2 == 0){
+          if(valinf % 2 == 0){
               System.out.println("The number is Pair ");
           }
           
